@@ -1,0 +1,17 @@
+<!-- Add this to the end of your <head> element:
+     The auto-height feature requires this library to be loaded.
+-->
+<script defer src="https://connect.calcapp.net/calcapp-iframe.min.js">
+</script>
+
+<!-- Add this markup to your HTML file where you'd like to embed your app: -->
+<iframe seamless
+        allow="clipboard-write"
+        src="https://connect.calcapp.net/?app=3030pl"
+        style="width: 480px;
+               height: 480px;
+               transition-property: height;
+               transition-duration: 0.3;
+               transition-timing-function: ease-in-out;"
+        calcapp-managed-height>
+</iframe>
